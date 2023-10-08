@@ -15,7 +15,7 @@ const EventDetails = () => {
                 <p className="mb-16">{details}</p>
             </div>
             <div>
-                
+                <h2>Get in touch</h2>
             </div>
         </div>
     );
