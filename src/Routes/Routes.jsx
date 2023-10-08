@@ -4,11 +4,13 @@ import Home from "../Pages/Home/Home";
 import EventDetails from "../Pages/EventDetails/EventDetails";
 import Login from "../Pages/Login/Login";
 import Register from "../Pages/Register/Register";
+import Error from "../Layouts/Error";
 
 const router = createBrowserRouter([
     {
         path: "/",
         element: <Root></Root>, 
+        errorElement: <Error></Error>,
         children: [
             {
                 path: "/",

@@ -17,6 +17,15 @@ const Register = () => {
         const photo_url = form.get('photo-url')
         console.log(name, email, password, photo_url)
         
+        // password length validation
+        if(password.length < 6){
+            toast.error("Password must be at least 6 character")
+            return;
+        }
+        else if(!/[A-Z]/.test(password)){
+            toast.error('Password must have at least one capital letter')
+            return;
+        }
 
         creatUser(email, password)
         .then(() => {
@@ -45,13 +54,13 @@ const Register = () => {
                                 <label className="label">
                                     <span className="label-text font-semibold">Name</span>
                                 </label>
-                                <input type="text" name="name" placeholder="Enter your name" className="input input-bordered" required />
+                                <input type="text" name="name" placeholder="Enter your name" className="input input-bordered" />
                             </div>
 
                             {/* Email */}
                             <div className="form-control">
                             <label className="label">
-                                <span className="label-text font-semibold">Email</span>
+                                <span className="label-text font-semibold">Email </span>
                             </label>
                             <input type="email" name="email" placeholder="Enter your email" className="input input-bordered" required />
                             </div>
@@ -74,7 +83,7 @@ const Register = () => {
 
                             {/* Register Button */}
                             <div className="form-control mt-6">
-                                <button className="btn btn-neutral normal-case">Register</button>
+                                <button className="btn btn-neutral bg-rose-500 border-none text-white">Register</button>
                                 <Toaster position="top-right"/>
                             </div>
                             <p className="text-sm mt-2 text-center">Already have an account? <Link to={"/login"} className="text-error link-hover font-semibold">Login</Link></p>

@@ -16,12 +16,18 @@ const Login = () => {
         const password = form.get('password')
         console.log(email, password)
 
+        // password length validation
+        if(password.length < 6){
+            toast.error("Password must be at least 6 character")
+            return;
+        }
+
         loginUser(email, password)
         .then(() => {
             toast.success('Login Successful')
         }).catch((err) => {
-            toast.error("Login Failed 😩")
-            console.log(err)
+            toast.error("Invalid Input")
+            console.log(err.code)
         });
     }
 
