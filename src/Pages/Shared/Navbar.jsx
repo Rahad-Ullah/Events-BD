@@ -20,7 +20,7 @@ const Navbar = () => {
                 {navLinks}
             </ul>
           </div>
-          <a href="/" className="text-2xl md:text-3xl font-serif font-bold">Events BD</a>
+          <a href="/" className="text-2xl md:text-3xl font-serif font-bold"><span className="text-rose-500">Events BD</span> </a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
@@ -34,7 +34,7 @@ const Navbar = () => {
             </div>
             </label>
 
-              <Link to={"/login"} className="btn btn-neutral rounded">Login</Link>
+              <Link to={"/login"} className="btn btn-neutral border-0 bg-rose-500 text-white rounded">Login</Link>
             
         </div>
       </div>

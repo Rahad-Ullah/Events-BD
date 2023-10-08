@@ -10,7 +10,7 @@ const EventCard = ({event}) => {
                 <h2 className="card-title text-2xl">{title}</h2>
                 <p>{description}</p>
                 <div className="card-actions justify-center mt-2">
-                    <NavLink to={`/event/${id}`} className="btn btn-primary w-full">Learn More</NavLink>
+                    <NavLink to={`/event/${id}`} className="btn btn-neutral border-0 bg-rose-500 text-white transition duration-300 w-full">Learn More</NavLink>
                 </div>
             </div>
         </div>

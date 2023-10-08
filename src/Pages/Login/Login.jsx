@@ -35,9 +35,9 @@ const Login = () => {
                             </label>
                         </div>
                         <div className="form-control mt-6">
-                            <button className="btn btn-neutral normal-case">Login</button>
+                            <button className="btn btn-neutral border-0 bg-rose-500">Login</button>
                         </div>
-                            <p className="text-sm mt-2 text-center">Don&apos;t have an account? <Link to={"/register"} className="text-error link-hover font-semibold">Register</Link></p>
+                            <p className="text-sm mt-2 text-center">Don&apos;t have an account? <Link to={"/register"} className="text-rose-500 link-hover font-semibold">Register</Link></p>
                     </form>
                     </div>
                 </div>
