@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import Navbar from "../Shared/Navbar";
 import { useContext } from "react";
 import { AuthContext } from "../../providers/AuthProvider";
@@ -8,6 +8,8 @@ import toast, { Toaster } from 'react-hot-toast';
 const Login = () => {
 
     const {loginUser, googleSignIn} = useContext(AuthContext)
+    const location = useLocation()
+    const navigate = useNavigate()
     
     const handleLogin = (e) =>{
         e.preventDefault()
@@ -25,6 +27,7 @@ const Login = () => {
         loginUser(email, password)
         .then(() => {
             toast.success('Login Successful')
+            navigate(location?.state || "/")
         }).catch((err) => {
             toast.error("Invalid Input")
             console.log(err.code)
@@ -35,6 +38,7 @@ const Login = () => {
         googleSignIn()
         .then(() => {
             toast.success("Login Successful")
+            navigate(location?.state || "/")
         }).catch((err) => {
             toast.error("Login Failed")
             console.log(err)
