@@ -14,7 +14,9 @@ const Register = () => {
     
     return (
         <div className="bg-base-200">
-            <Navbar></Navbar>
+            <div className="max-w-5xl mx-auto">
+                <Navbar></Navbar>
+            </div>
             <div className="bg-base-200 mx-auto px-4 md:px-6 lg:px-8">
                 <div className="hero min-h-screen pb-16">
                     <div className="hero-content w-full p-0">
