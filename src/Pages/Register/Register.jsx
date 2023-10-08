@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import Navbar from "../Shared/Navbar";
 import { useContext } from "react";
 import { AuthContext } from "../../providers/AuthProvider";
+import toast, { Toaster } from "react-hot-toast";
 
 const Register = () => {
 
@@ -18,9 +19,10 @@ const Register = () => {
         
 
         creatUser(email, password)
-        .then((result) => {
-            console.log('reg. success', result)
+        .then(() => {
+            toast.success("Registration Successful")
         }).catch((err) => {
+            toast.error("Registration Failed")
             console.log(err)
         });
 
@@ -73,6 +75,7 @@ const Register = () => {
                             {/* Register Button */}
                             <div className="form-control mt-6">
                                 <button className="btn btn-neutral normal-case">Register</button>
+                                <Toaster position="top-right"/>
                             </div>
                             <p className="text-sm mt-2 text-center">Already have an account? <Link to={"/login"} className="text-error link-hover font-semibold">Login</Link></p>
                         </form>
