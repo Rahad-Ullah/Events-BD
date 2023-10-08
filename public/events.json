@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Meeting and Conference",
+    "description": "Join us for our annual sales meeting where industry leaders discuss market trends and strategies for the upcoming year.",
+    "details": "Join us at the Meeting and Conference, where industry experts and thought leaders gather to exchange knowledge and insights. This event provides a unique opportunity for networking, learning, and collaboration. Explore the latest trends, best practices, and strategies to stay ahead in your field. Don't miss out on this invaluable experience!",
+    "image": "meeting_and_conference.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Trade Show Pros",
+    "description": "The Trade Show Pros event is where businesses showcase their products and services to a diverse audience of potential customers and partners.",
+    "details": "The Trade Show Pros event is where businesses showcase their products and services to a diverse audience of potential customers and partners. It's a platform for networking, forging partnerships, and discovering the latest industry innovations. Be part of this dynamic trade show and elevate your brand presence.",
+    "image": "trade_show_pros.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Product Launch Event",
+    "description": "Experience the excitement of our Product Launch Event as we unveil our latest innovation to the world. Be among the first to witness groundbreaking technology that will redefine the industry.",
+    "details": "Experience the excitement of our Product Launch Event as we unveil our latest innovation to the world. Be among the first to witness groundbreaking technology that will redefine the industry. Join us for a day of exploration, inspiration, and innovation.",
+    "image": "product_launch_event.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Infrastructure Training",
+    "description": "Our Infrastructure Training Workshop is designed to equip professionals with the knowledge and skills required to excel in the world of infrastructure management.",
+    "details": "Our Infrastructure Training Workshop is designed to equip professionals with the knowledge and skills required to excel in the world of infrastructure management. Dive deep into the latest industry practices, gain hands-on experience, and learn from top experts. Elevate your career with this intensive training program.",
+    "image": "infrastructure_training.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Brand Activation",
+    "description": "Unlock the potential of your brand at our Brand Activation event. Immerse yourself in interactive exhibits, experiential marketing.",
+    "details": "Unlock the potential of your brand at our Brand Activation event. Immerse yourself in interactive exhibits, experiential marketing, and engaging activations that captivate your audience. Discover how to create lasting brand impressions and connect with customers on a deeper level.",
+    "image": "brand_activation.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Award Ceremonies",
+    "description": "Celebrate excellence and honor outstanding achievements at our prestigious Award Ceremonies. Join us for an unforgettable evening recognizing individuals and organizations that have made a significant impact in their respective fields.",
+    "details": "Celebrate excellence and honor outstanding achievements at our prestigious Award Ceremonies. Join us for an unforgettable evening recognizing individuals and organizations that have made a significant impact in their respective fields. It's a night of glamour, inspiration, and recognition.",
+    "image": "award_ceremonies.jpg"
+  }
+]
