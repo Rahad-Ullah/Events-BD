@@ -43,7 +43,7 @@ const Register = () => {
                 <Navbar></Navbar>
             </div>
             <div className="bg-base-200 mx-auto px-4 md:px-6 lg:px-8">
-                <div className="hero min-h-screen pb-16">
+                <div className="hero min-h-screen py-16">
                     <div className="hero-content w-full p-0">
                         <div className="card flex-shrink-0 w-full max-w-md shadow-2xl bg-base-100 rounded">
                         <form onSubmit={handleRegister} className="card-body">

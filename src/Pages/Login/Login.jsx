@@ -49,7 +49,7 @@ const Login = () => {
             <div className="max-w-5xl mx-auto">
                 <Navbar></Navbar>
             </div>
-            <div className="hero min-h-screen pb-16">
+            <div className="hero min-h-screen py-16">
                 <div className="hero-content w-full p-0">
                     <div className="card flex-shrink-0 w-full max-w-md shadow-2xl bg-base-100 rounded">
                         <div className="card-body">

@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 const EventCard = ({event}) => {
     const {id, title, image, description} = event;
     return (
-        <div className="card bg-base-100 border rounded-xl">
+        <div className="card bg-base-100 border rounded-xl transition-all duration-500 hover:shadow-2xl transform hover:-translate-y-1">
             <figure><img src={image} alt="image" className="w-full h-56"/></figure>
             <div className="card-body p-5">
                 <h2 className="card-title text-xl md:text-2xl">{title}</h2>
