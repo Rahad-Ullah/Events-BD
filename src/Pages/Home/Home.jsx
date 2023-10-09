@@ -3,6 +3,7 @@ import Services from "./Services";
 import Navbar from "../Shared/Navbar";
 import Footer from "../Shared/Footer";
 import Banner from "./Banner";
+import RecentEvents from "./RecentEvents/RecentEvents";
 
 const Home = () => {
 
@@ -18,6 +19,9 @@ const Home = () => {
             </div>
             <div className="max-w-6xl mx-auto px-4 md:px-6 lg:px-8">
                 <Services events={events}></Services>
+            </div>
+            <div className="bg-base-200">
+                <RecentEvents></RecentEvents>
             </div>
             <div className="bg-base-content text-white">
                 <Footer></Footer>

@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "Tech Summit 2023",
+    "image": "https://i.ibb.co/XXghKF0/tech-Sumit.jpg",
+    "description": "Cutting-edge tech discussions and innovations for Walton",
+    "date": "18 May, 2023",
+    "center": "Pan Pacific Sonargaon Dhaka",
+    "location": "Dhaka, Bangladesh"
+  },
+  {
+    "id": 2,
+    "title": "Trade Show Expo",
+    "image": "https://i.ibb.co/p4QBLVJ/trade-Show-Expo.jpg",
+    "description": "Glamorous runway showcase featuring top designers of Plustice industry.",
+    "date": "13 September, 2023",
+    "center": "Dhaka Convention Center",
+    "location": "Dhaka, Bangladesh"
+  },
+  {
+    "id": 3,
+    "title": "Sofware Engineers Conference",
+    "image": "https://i.ibb.co/PZnrK3r/software-Conf.jpg",
+    "description": "Connect, collaborate, and network with Sofware Engineers of Bangladesh ",
+    "date": "25 August, 2023",
+    "center": "The Westin Dhaka",
+    "location": "Dhaka, Bangladesh"
+  }
+]
