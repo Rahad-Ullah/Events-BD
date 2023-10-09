@@ -13,14 +13,14 @@ const Navbar = () => {
 
     const navLinks = <>
     <li><NavLink to={"/"}>Home</NavLink></li>
+    <li><NavLink to={"/recent_events"}>Recent Events</NavLink></li>
     <li><NavLink to={"/about"}>About</NavLink></li>
-    <li><NavLink to={"/career"}>Career</NavLink></li>
+    <li><NavLink to={"/contact"}>Contact</NavLink></li>
     <li><NavLink to={"/login"}>Login</NavLink></li>
-    <li><NavLink to={"/addict"}>Addict</NavLink></li>
 </>
     
     return (
-    <div className="navbar py-6">
+    <div className="navbar py-6 max-w-6xl mx-auto px-4 md:px-6 lg:px-8">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">

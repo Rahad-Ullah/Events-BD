@@ -46,10 +46,8 @@ const Login = () => {
     }
     return (
         <div className="bg-base-200 px-4 md:px-6 lg:px-8">
-            <div className="max-w-5xl mx-auto">
-                <Navbar></Navbar>
-            </div>
-            <div className="hero min-h-screen py-16">
+            <Navbar></Navbar>
+            <div className="hero min-h-screen max-w-6xl mx-auto py-16">
                 <div className="hero-content w-full p-0">
                     <div className="card flex-shrink-0 w-full max-w-md shadow-2xl bg-base-100 rounded">
                         <div className="card-body">

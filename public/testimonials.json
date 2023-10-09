@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "Sean Parker",
+        "image": "https://i.ibb.co/SvqDSGg/user-1.png",
+        "review": "Events BD exceeded expectations at Tech Summit 2023. Impressive execution of cutting-edge tech discussions."
+    },
+    {
+        "id": 2,
+        "name": "Mike Smith",
+        "image": "https://i.ibb.co/RHjrL92/user-2.png",
+        "review": "Kudos to Events BD for the Fashion Show Extravaganza! Elegance, style, and top-notch event management."
+    },
+    {
+        "id": 3,
+        "name": "Mabel Joe",
+        "image": "https://i.ibb.co/1fwmMht/user-3.png",
+        "review": "Events BD's Business Networking Mixer was a networking goldmine. A testament to their professional prowess."
+    }
+]

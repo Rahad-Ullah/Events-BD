@@ -3,7 +3,8 @@ import Services from "./Services";
 import Navbar from "../Shared/Navbar";
 import Footer from "../Shared/Footer";
 import Banner from "./Banner";
-import RecentEvents from "./RecentEvents/RecentEvents";
+import Testimonial from "./Testimonial/Testimonial";
+import Feature from "./Feature/Feature";
 
 const Home = () => {
 
@@ -11,17 +12,18 @@ const Home = () => {
     
     return (
         <div>
-            <div className="max-w-6xl mx-auto px-4 md:px-6 lg:px-8">
-                <Navbar></Navbar>
-            </div>
+            <Navbar></Navbar>
             <div>
                 <Banner></Banner>
             </div>
-            <div className="max-w-6xl mx-auto px-4 md:px-6 lg:px-8">
+            <div>
                 <Services events={events}></Services>
             </div>
-            <div className="bg-base-200">
-                <RecentEvents></RecentEvents>
+            <div>
+                <Feature></Feature>
+            </div>
+            <div className="py-24">
+                <Testimonial></Testimonial>
             </div>
             <div className="bg-base-content text-white">
                 <Footer></Footer>

@@ -1,9 +1,9 @@
 import { FaCalendar, FaHome } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
+import PropTypes from 'prop-types'
 
 const RecentEvent = ({event}) => {
-    const {id, title, image, description, date, center, location} = event;
-    console.log(event)
+    const { title, image, description, date, center, location} = event;
     return (
         <div className="card card-compact bg-base-100 shadow-xl">
             <figure><img src={image} alt="recent_event" className="w-full h-52"/></figure>
@@ -20,5 +20,10 @@ const RecentEvent = ({event}) => {
         </div>
     );
 };
+
+
+RecentEvent.propTypes = {
+    event: PropTypes.object,
+}
 
 export default RecentEvent;
