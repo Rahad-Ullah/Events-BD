@@ -28,7 +28,7 @@ const Contact = () => {
                         <label className="label">
                             <span className="label-text font-semibold">Message </span>
                         </label>
-                        <textarea type="text" name="email" placeholder="Write here..." className="input input-bordered h-48" required></textarea>
+                        <textarea type="text" name="message" placeholder="Write your message here..." className="input input-bordered py-3 h-48" required></textarea>
                         </div>
                         <div className="form-control mt-6">
                             <button className="btn btn-neutral bg-rose-500 border-none text-white">Send</button>

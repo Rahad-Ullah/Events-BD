@@ -75,7 +75,7 @@ const Login = () => {
                             </form>
                             <div className="pt-4 border-t">
                                 <span className="relative bottom-7 left-1/2 pr-2 bg-white">or</span>
-                                <button onClick={handleGoogleSignIn} className="btn hover:bg-rose-500 hover:border-none btn-outline normal-case w-full"><FaGoogle></FaGoogle> continue with Google</button>
+                                <button onClick={handleGoogleSignIn} className="btn border-rose-500 text-rose-500 hover:bg-rose-500 hover:border-none btn-outline normal-case w-full"><FaGoogle></FaGoogle> continue with Google</button>
                                 <Toaster position="top-right"/>
                             </div>
                         </div>

@@ -84,7 +84,7 @@ const Register = () => {
                                 <button className="btn btn-neutral bg-rose-500 border-none text-white">Register</button>
                                 <Toaster position="top-right"/>
                             </div>
-                            <p className="text-sm mt-2 text-center">Already have an account? <Link to={"/login"} className="text-error link-hover font-semibold">Login</Link></p>
+                            <p className="text-sm mt-2 text-center">Already have an account? <Link to={"/login"} className="text-rose-500 link-hover font-semibold">Login</Link></p>
                         </form>
                         </div>
                     </div>
